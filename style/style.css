@@ -1,8 +1,82 @@
 #h2_1{
-	color: blue;
+	color: red;
 }
 
 .d_1{
 	background-color: black;
+	background-attachment: fixed;
+	background: gray;
+	color: black;
+}
+
+body{
+	background: white;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	letter-spacing: 2px;
 	color: white;
+	margin: 0 16px;
+	font-size: 20px;
+	/*text-align: left;*/
+}
+
+.menu{
+	display: inline;
+}
+
+.menu:hover{
+	background-color: black;
+	background: green;
+	/*color: red;*/
+	/*font-size: 3em;*/
+
+}
+
+.menu:active{
+	font-size: 18px;
+}
+
+.index{
+	background: black;
+	color: black;
+	margin: 0;
+	height: 24px;
+	list-style-type: none;
+	padding: 10px 0;
+	width: 50%;
+	margin-right: 0;
+	display: inline;
+}
+
+.nav{
+	background: black;
+	height: 24px;
+	padding: 10px 0;
+
+}
+
+.final_c{
+	color: blue;
+	font-size: 17px;
+}
+
+footer{
+	text-align: center;
+	margin-top: bottom;
+	padding: 10px;
+	color: red;
+	background-color: gray;
+	font-size: auto;
+}
+
+.Gortoo_Logo{
+	padding: 10px;
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
