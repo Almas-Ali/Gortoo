@@ -1,17 +1,19 @@
-#h2_1{
+.h2_1{
 	color: red;
 }
 
 .d_1{
 	background-color: black;
 	background-attachment: fixed;
-	background: gray;
+	background: #718096;
 	color: black;
 }
 
 body{
 	background: white;
 	margin: 0;
+	background-image: url('../img/img.png');
+	background-repeat: no-repeat;
 }
 
 a{
@@ -45,31 +47,48 @@ a{
 	margin: 0;
 	height: 24px;
 	list-style-type: none;
-	padding: 10px 0;
+	padding: 7px 0;
 	width: 50%;
 	margin-right: 0;
-	display: inline;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: ;
 }
 
 .nav{
 	background: black;
-	height: 24px;
+	height: 34px;
 	padding: 10px 0;
 
 }
 
 .final_c{
+	text-align: center;
 	color: blue;
 	font-size: 17px;
 }
 
 footer{
+	display: flex;
 	text-align: center;
 	margin-top: bottom;
 	padding: 10px;
-	color: red;
 	background-color: gray;
 	font-size: auto;
+	justify-content: center;
+}
+
+.footer_logo_1{
+	height: 50px;
+	width: 50px;
+	padding-right: 10px;
+}
+
+.footer_text{
+
+	display: center;
+	color: blue;
+
 }
 
 .Gortoo_Logo{

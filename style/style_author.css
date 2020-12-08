@@ -1,5 +1,7 @@
 .author_{
 	text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 
 .p_1{
@@ -8,4 +10,10 @@
 
 .name_1{
 	color: red;
+}
+
+.author_img{
+	margin: 10px;
+	height: 250px;
+	width: 250px;
 }
