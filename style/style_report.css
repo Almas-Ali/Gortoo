@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #047aed;
+
+}
+
+form{
+	background: blue;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-top: 30px;
+	overflow: visible;
+	box-shadow: 0 3px 10px rgba(0,0,0,0);
+	margin-top: -230px;
+	margin-left: 50%;
+	margin-bottom: 50px;
+	margin-right: 25%;
+}
+
+.Gortoo_Logo{
+	margin: 20px 20px;
+	/*margin-left: 0%;*/
+}
+
+input{
+	background-color: #047aed;
+	border: 1px solid white;
+}
+
+.name{
+	width: -50px;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	font-size: 16px;
+	/*background-color: white;*/
+}
+
+.input{
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+	margin-bottom: 7px;
+}
+
+.name_inputs{
+	color: white;
+	/*background-color: blue;*/
+}
+
+.input_total{
+	display: relative;
+	margin-top: -193px;
+	margin-bottom: 20px;
+	/*background-color: white;*/
+}
+
+.submit_{
+	border: 2px;
+	border-radius: 10px;
+	background-color: lime;
+	margin-top: 20px;
+	margin-left: 120px;
+	margin-bottom: 20px;
+}
+
+.code_{
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+footer{
+	line-height: 50px;
+}
+/*
+@media (min-width:650px){
+	form{
+		background: blue;
+		border-radius: 10px;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-top: 30px;
+		overflow: visible;
+		box-shadow: 0 3px 10px rgba(0,0,0,0);
+		margin-top: -230px;
+		margin-left: 50%;
+		margin-bottom: 50px;
+		margin-right: 1vw;
+	}
+}
+
+@media (max-width: 650px){
+	form{
+		background: blue;
+		border-radius: 10px;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-top: 30px;
+		overflow: visible;
+		box-shadow: 0 3px 10px rgba(0,0,0,0);
+		margin-top: -230px;
+		margin-left: 50%;
+		margin-bottom: 50px;
+		margin-right: 25vw;
+	}
+}*/
