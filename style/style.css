@@ -1,99 +1,109 @@
-.h2_1{
-	color: red;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.d_1{
-	background-color: black;
-	background-attachment: fixed;
-	background: #718096;
-	color: black;
+:root {
+  --nav-bg: rgb(128, 128, 128);
 }
 
-body{
-	background: white;
-	margin: 0;
-	background-image: url('../img/img.png');
-	background-repeat: no-repeat;
+.h2_1 {
+  color: red;
 }
 
-a{
-	text-decoration: none;
-	letter-spacing: 2px;
-	color: white;
-	margin: 0 16px;
-	font-size: 20px;
-	/*text-align: left;*/
+.d_1 {
+  background-color: black;
+  background-attachment: fixed;
+  background: #718096;
+  color: black;
 }
 
-.menu{
-	display: inline;
+body {
+  background: white;
+  margin: 0;
+  background-image: url("../img/img.png");
+  background-repeat: no-repeat;
 }
 
-.menu:hover{
-	background-color: black;
-	background: green;
-	/*color: red;*/
-	/*font-size: 3em;*/
-
+a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+  margin: 0 16px;
+  font-size: 20px;
+  /*text-align: left;*/
 }
 
-.menu:active{
+.menu {
+  padding: 5px 3px;
+}
+
+.menu:hover {
+  color: #000;
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 5px 3px;
+}
+
+/* .menu:active{
 	font-size: 18px;
+} */
+
+.index {
+  background: var(--nav-bg);
+  color: black;
+  /* margin: 0; */
+  /* height: 24px; */
+  list-style-type: none;
+  /* padding: 7px 0; */
+  /* width: 50%; */
+  /* margin-right: 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.index{
-	background: black;
-	color: black;
-	margin: 0;
-	height: 24px;
-	list-style-type: none;
-	padding: 7px 0;
-	width: 50%;
-	margin-right: 0;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: ;
+.nav {
+  background: var(--nav-bg);
+  /* height: 34px; */
+  padding: 10px 0;
 }
 
-.nav{
-	background: black;
-	height: 34px;
-	padding: 10px 0;
-
+.final_c {
+  text-align: center;
+  color: blue;
+  font-size: 17px;
 }
 
-.final_c{
-	text-align: center;
-	color: blue;
-	font-size: 17px;
+footer {
+  display: flex;
+  text-align: center;
+  /* margin-top: auto; */
+  padding: 10px;
+  background-color: var(--nav-bg);
+  font-size: auto;
+  justify-content: center;
 }
 
-footer{
-	display: flex;
-	text-align: center;
-	margin-top: bottom;
-	padding: 10px;
-	background-color: gray;
-	font-size: auto;
-	justify-content: center;
+.footer_logo_1 {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
 }
 
-.footer_logo_1{
-	height: 50px;
-	width: 50px;
-	padding-right: 10px;
+.footer_text {
+  /* display: center; */
+  color: orange;
+  margin-top: 13px;
+  font-size: 20px;
 }
 
-.footer_text{
-	display: center;
-	color: blue;
-}
-
-.Gortoo_Logo{
-	padding: 10px;
-	display: block;
-	height: 200px;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
+.Gortoo_Logo {
+  padding: 10px;
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
